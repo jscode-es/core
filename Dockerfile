@@ -19,9 +19,6 @@ RUN npm i -g @nestjs/cli
 # Instalar dependencias
 RUN npm install
 
-# Constuir aplicación para producción
-RUN npm run build
-
 # Exponer el puerto 8080
 EXPOSE 8080
 
