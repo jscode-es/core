@@ -20,7 +20,7 @@ RUN npm i -g @nestjs/cli
 RUN npm install
 
 # Constuir aplicación para producción
-RUN npm run build --prod
+RUN npm run build
 
 # Exponer el puerto 8080
 EXPOSE 8080
